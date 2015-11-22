@@ -1,5 +1,5 @@
-.list {
-  position: absolute;
+.tab{
+  position: relative;
   top: 115px;
   line-height: 30px;
   left: 15%;
@@ -7,10 +7,18 @@
   font-size: 25px;
   color: orange;
 }
+
 .btn-danger{
   color: orange;
   position: relative;
   left: 260%;
   top: -6px;
+} 
+
+.img-responsive {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
 
 }
