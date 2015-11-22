@@ -1,0 +1,16 @@
+.list {
+  position: absolute;
+  top: 115px;
+  line-height: 30px;
+  left: 15%;
+  list-style-type: none;
+  font-size: 25px;
+  color: orange;
+}
+.btn-danger{
+  color: orange;
+  position: relative;
+  left: 260%;
+  top: -6px;
+
+}
