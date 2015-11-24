@@ -1,10 +1,11 @@
 $(document).ready(function() {
   //alert("hello")
+  //Navbar
   $("#btntitle").on("click", function(e){
     e.preventDefault();
 
     var navtitle = $("#navtitle").val();
-    var title = $("<p>");
+    var title = $("<h1>");
     
     title.append(navtitle + "<hr></hr>");
     $(".well").append(title);
