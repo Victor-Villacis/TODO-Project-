@@ -1,19 +1,11 @@
-.tab{
+.notepad{
   position: relative;
-  top: 115px;
-  line-height: 30px;
-  left: 15%;
-  list-style-type: none;
+  top: 86px;
+  line-height: 40px;
+  left: 5%;
   font-size: 25px;
-  color: orange;
+  color: black;
 }
-
-.btn-danger{
-  color: orange;
-  position: relative;
-  left: 260%;
-  top: -6px;
-} 
 
 .img-responsive {
   background-repeat: no-repeat;
@@ -21,4 +13,14 @@
   position: absolute;
   z-index: -1;
 
+}
+
+@media screen and (max-width: 990px) {
+    #notepad {
+        font-size:15px;
+        font-weight: bold;
+    }
+
+.list {
+  text-align: center;
 }
